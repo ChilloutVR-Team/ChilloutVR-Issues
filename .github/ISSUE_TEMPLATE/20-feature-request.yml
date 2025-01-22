@@ -1,0 +1,48 @@
+name: 'Feature Request'
+description: "You have a suggestion for a new feature or improvement? Let us know!"
+title: '[Bug] '
+labels: ['type: feature-request', 'status: triage']
+projects: ['Alpha-Blend-Interactive/2']
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        # Checklist
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: 'I checked that there is no other Feature Request describing my wish.'
+          required: true
+        - labrl: 'I checked that this feature is, in fact, not supported.'
+          required: true
+        - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # Describe the feature
+
+  - type: textarea
+    id: feature-desc
+    attributes:
+      label: 'What should be possible that currently is not'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # Anything else?
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: 'Other remarks'
+    validations:
+      required: false
