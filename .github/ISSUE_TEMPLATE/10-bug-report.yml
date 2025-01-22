@@ -58,6 +58,19 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: branch
+    attributes:
+      label: Branch
+      description: What branch of the game did this happen on?
+      options:
+        - Stable (Default branch, use this if unsure)
+        - Nightly
+        - Other (Leave as remark)
+      default: 0
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
