@@ -10,9 +10,9 @@ This is the Official ChilloutVR Issue Tracker for users to report game or CCK bu
 
 ### Bug Reports
 Titles should start with game or CCK version depending if the bug is with the CCK or with the game.
-> Here is how to find the [Game Version]() and [CCK Version]()  
+> Here is how to find the [Game Version](https://github.com/Alpha-Blend-Interactive/ChilloutVR/blob/main/VersionHowTo/Game%20Version.md) and [CCK Version](https://github.com/Alpha-Blend-Interactive/ChilloutVR/blob/main/VersionHowTo/CCK%20Version.md#cck-version)  
 
 Give a breif explanation of the bug.  
 Then give what you believe is the expected outcome.  
 Now include the Reproductions Steps of what you did to encounter this bug.  
-After youre finished your Bug Report Issue should look like [this]().
+After youre finished your Bug Report Issue should look like [this](https://github.com/Alpha-Blend-Interactive/ChilloutVR/issues/7#issue-2805122766).
