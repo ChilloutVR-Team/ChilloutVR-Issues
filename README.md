@@ -1,4 +1,12 @@
-# ChilloutVR issue tracker
+<center><div align="center">
+
+<img width="800px" src="https://i.imgur.com/IBFOtti.png" />
+
+---
+
+</div></center>
+
+# ChilloutVR Issue Tracker
 The all new official issue and feature request tracker for ChilloutVR, this includes CCK for now.
 
 ## Creating an Issue (Bug Report, Feature Request, ..)
