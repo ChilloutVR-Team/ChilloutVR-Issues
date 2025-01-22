@@ -1,7 +1,7 @@
-name: 'Feature Request'
-description: "You have a suggestion for a new feature or improvement? Let us know!"
-title: '[Feature Request] '
-labels: ['type: feature-request', 'status: triage']
+name: 'Feature Enhancement / Addition'
+description: "You have a suggestion for an enhancement or addition to an existing feature?"
+title: '[Feature Enhancement] '
+labels: ['type: enhancement', 'status: triage']
 projects: ['Alpha-Blend-Interactive/2']
 
 body:
@@ -16,9 +16,9 @@ body:
     attributes:
       label: Pre-submission checklist
       options:
-        - label: 'I checked that there is no other Feature Request describing my wish.'
+        - label: 'I checked that there is no other Enhancement or Feature Request describing my wish.'
           required: true
-        - labrl: 'I checked that this feature is, in fact, not supported.'
+        - labrl: 'I checked that this part of the feature is, in fact, not supported.'
           required: true
         - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
           required: true
@@ -26,12 +26,24 @@ body:
   - type: markdown
     attributes:
       value: |
+        # Whats the core feature?
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: 'Whats the core feature this is about?'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
         # Describe the feature
 
   - type: textarea
-    id: feature-desc
+    id: feature-addition
     attributes:
-      label: 'What should be possible that currently is not'
+      label: 'What should be possible that currently is not with this feature? (What should be added?)'
     validations:
       required: true
 
