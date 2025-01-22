@@ -1,7 +1,7 @@
-name: 'Bug Report'
-description: "Something isn't working as expected."
-title: '[Bug] '
-labels: ['type: bug', 'status: triage', 'in: game']
+name: 'CCK Bug Report'
+description: "Something isn't working as expected in the CCK."
+title: '[CCK Bug] '
+labels: ['type: bug', 'status: triage', 'in: cck']
 projects: ['Alpha-Blend-Interactive/2']
 
 body:

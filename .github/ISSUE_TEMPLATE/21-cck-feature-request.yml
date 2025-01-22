@@ -1,7 +1,7 @@
-name: 'Feature Request'
-description: "You have a suggestion for a new feature or improvement?"
-title: '[Feature Request] '
-labels: ['type: feature-request', 'status: triage', 'in: game']
+name: 'CCK Feature Request'
+description: "You have a suggestion for a new feature or improvement in the CCK?"
+title: '[CCK Feature Request] '
+labels: ['type: feature-request', 'status: triage', 'in: cck']
 projects: ['Alpha-Blend-Interactive/2']
 
 body:
