@@ -27,11 +27,11 @@ body:
         # System Information
 
   - type: input
-      id: platform
-      attributes:
-        label: Platform
-        description: What platform are you using?
-        placeholder: 'E.g.: Steam PC, Meta Quest, Pico, ..'
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you using?
+      placeholder: 'E.g.: Steam PC, Meta Quest, Pico, ..'
     validations:
       required: true
 
