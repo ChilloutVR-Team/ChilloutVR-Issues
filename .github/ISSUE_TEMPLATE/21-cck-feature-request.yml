@@ -18,7 +18,7 @@ body:
       options:
         - label: 'I checked that there is no other Feature Request describing my wish.'
           required: true
-        - labrl: 'I checked that this feature is, in fact, not supported.'
+        - label: 'I checked that this feature is, in fact, not supported.'
           required: true
         - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
           required: true
