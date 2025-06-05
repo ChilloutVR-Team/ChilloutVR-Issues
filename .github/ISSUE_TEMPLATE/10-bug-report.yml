@@ -100,7 +100,7 @@ body:
       value: |
         # Steps to reproduce
 
-  - type: textarea
+  - type: input
     id: how-to-reproduce-content
     attributes:
       label: Content GUID
