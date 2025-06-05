@@ -1,0 +1,107 @@
+name: 'Hub (ChilloutVR Website) Bug Report'
+description: "Something isn't working as expected."
+title: '[Hub-Bug] '
+labels: ['type: bug', 'status: triage', 'in: hub']
+projects: ['Alpha-Blend-Interactive/2']
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        # Checklist
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: 'I checked that no other Bug Report describing my problem exists.'
+          required: true
+        - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # System Information
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: What device were you using to view the hub?
+      placeholder: 'E.g.: Desktop / PC, Phone, Tablet, TV, Smart Fridge, ..'
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What Browsers and Version of it were you using?
+      placeholder: 'E.g.: Chrome 127.0.7151.69, Firefox 139.0.1, Zen 1.12.10b, ..'
+    validations:
+      required: True
+
+  - type: markdown
+    attributes:
+      value: |
+        # ChilloutVR Information
+
+  - type: input
+    id: url
+    attributes:
+      label: 'URL'
+      description: Please provide the url of the page this happend on
+      placeholder: 'E.g.: https://hub.abinteractive.net/myavatars'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # What happened?
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 'Describe what happened as precisely as possible.'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # What did you expect to happen?
+
+  - type: textarea
+    id: what-did-you-expect
+    attributes:
+      label: 'Describe what you expected to happen instead.'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # Steps to reproduce
+
+  - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: 'In as much detail as possible, describe the exact steps you took to make the problem appear.'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # Anything else?
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: 'Other remarks'
+    validations:
+      required: false
