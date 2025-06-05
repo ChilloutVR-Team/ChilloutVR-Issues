@@ -101,6 +101,14 @@ body:
         # Steps to reproduce
 
   - type: textarea
+    id: how-to-reproduce-content
+    attributes:
+      label: Content GUID
+      description: 'Please provide us with an ingame content guid. Make sure to prefix it with `a+` for avatars, `p+` for props, `w+` for worlds. You can copy the ID of something by double clicking its picture. Note that your content **can** be private and does not need to be public.'
+    validations:
+      required: false
+
+  - type: textarea
     id: how-to-reproduce
     attributes:
       label: 'In as much detail as possible, describe the exact steps you took to make the problem appear.'
