@@ -1,6 +1,6 @@
 <center><div align="center">
 
-<img width="800px" src="https://chilloutvr.net/assets/images/chilloutvr-text.webp" />
+<img width="800px" src="https://i.imgur.com/Gnc1j64.png" />
 
 ---
 
