@@ -1,6 +1,6 @@
-name: 'Feature Enhancement / Addition'
+name: 'CCK Feature Enhancement / Addition'
 description: "You have a suggestion for an enhancement or addition to an existing feature?"
-title: '[Feature Enhancement] '
+title: '[CCK Feature Enhancement] '
 labels: ['type: enhancement', 'status: triage', 'in: cck']
 projects: ['Alpha-Blend-Interactive/2']
 
