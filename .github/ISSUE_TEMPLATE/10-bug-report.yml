@@ -17,7 +17,7 @@ body:
       label: Pre-submission checklist
       description: |
         Please make sure you've followed all steps before submitting.
-        🔗 [How to properly disable mods](https://github.com/ChilloutVR-Team/ChilloutVR-Issues/?tab=readme-ov-file#how-to-properly-disable-mods)
+        🔗 [How to properly disable mods](https://github.com/ChilloutVR-Team/ChilloutVR-Issues/?tab=readme-ov-file#how-to-properly-disable-mods){:target="_blank"}
       options:
         - label: '(If using Mods) I ensured the issue occurred without using mods by renaming version.dll to version.dll.disabled'
           required: true
