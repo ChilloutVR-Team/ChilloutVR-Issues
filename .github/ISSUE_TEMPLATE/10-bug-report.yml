@@ -16,6 +16,8 @@ body:
     attributes:
       label: Pre-submission checklist
       options:
+        - label: 'I ensured the issue occurred without using, mods by renaming version.dll to version.dll.disabled'
+          required: true
         - label: 'I checked that no other Bug Report describing my problem exists.'
           required: true
         - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
