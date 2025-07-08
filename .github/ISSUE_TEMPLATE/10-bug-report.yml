@@ -15,8 +15,11 @@ body:
     id: checklist
     attributes:
       label: Pre-submission checklist
+      description: |
+        Please make sure you've followed all steps before submitting.
+        🔗 [How to properly disable mods](https://github.com/ChilloutVR-Team/ChilloutVR-Issues/blob/feature/add-mod-check-on-bug-report/README.md#how-to-properly-disable-mods)
       options:
-        - label: 'I ensured the issue occurred without using, mods by [renaming version.dll to version.dll.disabled](https://github.com/ChilloutVR-Team/ChilloutVR-Issues/blob/feature/add-mod-check-on-bug-report/README.md#how-to-properly-disable-mods)'
+        - label: 'I ensured the issue occurred without using mods by renaming version.dll to version.dll.disabled'
           required: true
         - label: 'I checked that no other Bug Report describing my problem exists.'
           required: true
