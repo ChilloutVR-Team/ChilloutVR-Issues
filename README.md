@@ -16,6 +16,8 @@ The all new official issue and feature request tracker for ChilloutVR, this incl
 
 ## How to properly Disable Mods
 
+⚠️ Before submitting a game bug report, ensure you're not running mods as they might be breaking the game.
+
 1. Close your game
 2. On your Steam Library Right click `ChilloutVR` -> `Browse` -> `Browse Local Files`
 3. Rename the `version.dll` to `version.dll.disabled`
